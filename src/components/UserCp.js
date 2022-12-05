@@ -2,7 +2,7 @@ import React from "react";
 
 function UserCp(){
 	const CpStyle = {
-		backgroundColor: 'red',
+		backgroundColor: '#D40927',
 		padding: '20px',
 		borderBottom: '3px solid white',
 		color: 'white',

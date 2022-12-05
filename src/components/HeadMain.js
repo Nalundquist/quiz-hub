@@ -8,7 +8,7 @@ function HeadMain(){
 		padding: '20px',
 		borderBottom: '3px solid white',
 		borderRight: '3px solid white',
-		backgroundColor: 'red',
+		backgroundColor: '#D40927',
 		display: 'flex',
 		flexDirection: 'row',
 		justifyContent: 'space-between'
