@@ -22,7 +22,6 @@ function HeadMain(){
 		position: 'relative',
 		bottom: '5px',
 		color: 'white'
-	
 	}
 
 	return(
