@@ -1,6 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function FindQuiz() {
+
+function FindQuiz(props) {
   const findQuiz = {
     position: 'absolute',
     bottom: '50%',
@@ -9,10 +11,15 @@ function FindQuiz() {
   return(
     <React.Fragment>
       <div style={findQuiz}>
-        <button>Find a Quiz</button>
+        <p>Find form goes here</p>
+        <button onClick={props.returnHome}>Return Home</button>
       </div>
     </React.Fragment>
   )
+}
+
+FindQuiz.propTypes = {
+  returnHome: PropTypes.func
 }
 
 export default FindQuiz;
